@@ -140,7 +140,26 @@ right: -325px;
     }
     
   }
-  
+    @media(max-width:420px) {
+    input {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left:10px;
+        width: 300px;
+
+    }
+    .card-body{
+        margin-left: -10px;
+    padding-right: 10px;
+
+    }
+    .submit_btn{
+        right: -220px;
+        width: 100px;
+    }
+    
+  }
 
   @media (min-width: 772px) {
     .desktop-image {
