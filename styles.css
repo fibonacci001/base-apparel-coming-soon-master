@@ -140,13 +140,26 @@ right: -325px;
     }
     
   }
+  @media(max-width:800px) {
+    .submit_btn{
+        right: -290px;
+        width: 120px;
+    }
+  }
+  @media(max-width:600px) {
+    .submit_btn{
+        right: -190px;
+        width: 120px;
+    }
+  }
+
     @media(max-width:420px) {
     input {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-left:10px;
-        width: 300px;
+        width: 280px;
 
     }
     .card-body{
@@ -155,8 +168,8 @@ right: -325px;
 
     }
     .submit_btn{
-        right: -220px;
-        width: 100px;
+        right: -190px;
+        width: 120px;
     }
     
   }
